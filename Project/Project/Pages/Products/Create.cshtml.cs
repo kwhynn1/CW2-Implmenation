@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Project.Data;
 using Project.Models;
-using Project.Services;
 
 namespace Project.Pages.Products
 {

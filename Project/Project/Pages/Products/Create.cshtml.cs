@@ -12,23 +12,15 @@ namespace Project.Pages.Products
 {
     public class CreateModel : PageModel
     {
-        //public string filePath;
-        //public string fileName;
+        private readonly Project.Data.ProjectContext _context;
 
-        //private readonly IImageUploadService imageUploadService;
-
-        private readonly ProjectContext _context;
-
-        public CreateModel(ProjectContext context)
+        public CreateModel(Project.Data.ProjectContext context)
         {
             _context = context;
-            //this.imageUploadService = imageUploadService;
-           
         }
 
         public IActionResult OnGet()
         {
-            //fileName = file.FileName;
             return Page();
         }
 
@@ -39,19 +31,11 @@ namespace Project.Pages.Products
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
-
-
           if (!ModelState.IsValid)
             {
                 return Page();
             }
 
-            //if (file != null)
-            //{
-            //    filePath = await imageUploadService.UploadFileAsync(file);
-
-            //}
-      
             _context.Product.Add(Product);
             await _context.SaveChangesAsync();
 

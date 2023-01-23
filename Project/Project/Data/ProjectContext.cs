@@ -15,5 +15,6 @@ namespace Project.Data
         }
 
         public DbSet<Project.Models.Product> Product { get; set; } = default!;
+        public DbSet<Project.Models.Customer> Customer { get; set; }
     }
 }

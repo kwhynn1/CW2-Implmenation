@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Afro\\Downloads\\Project\\Project\\Project.csproj": {}
+    "C:\\Users\\Afro\\Documents\\CW2-Implmenation\\Project\\Project\\Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Afro\\Downloads\\Project\\Project\\Project.csproj": {
+    "C:\\Users\\Afro\\Documents\\CW2-Implmenation\\Project\\Project\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Afro\\Downloads\\Project\\Project\\Project.csproj",
+        "projectUniqueName": "C:\\Users\\Afro\\Documents\\CW2-Implmenation\\Project\\Project\\Project.csproj",
         "projectName": "Project",
-        "projectPath": "C:\\Users\\Afro\\Downloads\\Project\\Project\\Project.csproj",
+        "projectPath": "C:\\Users\\Afro\\Documents\\CW2-Implmenation\\Project\\Project\\Project.csproj",
         "packagesPath": "C:\\Users\\Afro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Afro\\Downloads\\Project\\Project\\obj\\",
+        "outputPath": "C:\\Users\\Afro\\Documents\\CW2-Implmenation\\Project\\Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Afro\\AppData\\Roaming\\NuGet\\NuGet.Config",

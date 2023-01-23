@@ -7,7 +7,6 @@ namespace Project.Pages
     public class DisplayProductsModel : PageModel
     {
         public string PriceSort { get; set; }
-
         public string CurrentFilter { get; set; }
         public string CurrentSort { get; set; }
 

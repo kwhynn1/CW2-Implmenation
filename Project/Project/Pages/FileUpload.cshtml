@@ -1,0 +1,27 @@
+﻿@page
+@model FileUploadModel
+
+<h1>Upload Image Files</h1>
+
+<div class="container">
+
+    <div class="mb-3 mt-3">
+        <form method="post" enctype="multipart/form-data">
+            <fieldset>
+                <div class="mb-3 col-4">
+                    <input class="form-control" type="file" name="file" size="35" />
+                </div>
+                <br />
+                <button class="btn btn-primary" type="submit">Upload</button>
+
+                  <a class="btn btn-info" href="/Products/Create">Back To Create Product</a>
+
+            </fieldset>
+        </form>
+    </div>
+
+
+
+</div>
+
+

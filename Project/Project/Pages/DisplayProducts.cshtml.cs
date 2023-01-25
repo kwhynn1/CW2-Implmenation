@@ -12,6 +12,7 @@ namespace Project.Pages
 
         private readonly Project.Data.ProjectContext _context;
 
+
         public DisplayProductsModel(Project.Data.ProjectContext context)
         {
             _context = context;

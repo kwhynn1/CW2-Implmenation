@@ -32,7 +32,7 @@ namespace Project.Data
                     },
                     new Models.Customer
                     {
-                        FullName = "Peter John",
+                        FullName = "Alwilda Ottone",
                         StreetAddress = "56 New Road",
                         City = "London",
                         PostalCode = "En53ER",
@@ -40,14 +40,22 @@ namespace Project.Data
                     },
                     new Models.Customer
                     {
-                        FullName = "Peter John",
+                        FullName = "Juurou Eva",
                         StreetAddress = "56 New Road",
                         City = "London",
                         PostalCode = "En53ER",
                         Gender = "F",
                     }, new Models.Customer
                     {
-                        FullName = "Peter John",
+                        FullName = "Homer Vincent",
+                        StreetAddress = "56 New Road",
+                        City = "London",
+                        PostalCode = "En53ER",
+                        Gender = "M",
+                    },
+                    new Models.Customer
+                    {
+                        FullName = "Larysa Vasant",
                         StreetAddress = "56 New Road",
                         City = "London",
                         PostalCode = "En53ER",
@@ -55,22 +63,14 @@ namespace Project.Data
                     },
                     new Models.Customer
                     {
-                        FullName = "Peter John",
-                        StreetAddress = "56 New Road",
-                        City = "London",
-                        PostalCode = "En53ER",
-                        Gender = "F",
-                    },
-                    new Models.Customer
-                    {
-                        FullName = "Peter John",
+                        FullName = "Suze Archibald",
                         StreetAddress = "56 New Road",
                         City = "London",
                         PostalCode = "En53ER",
                         Gender = "F",
                     }, new Models.Customer
                     {
-                        FullName = "Peter John",
+                        FullName = "Eva O'Donnell",
                         StreetAddress = "56 New Road",
                         City = "London",
                         PostalCode = "En53ER",
@@ -78,27 +78,27 @@ namespace Project.Data
                     },
                     new Models.Customer
                     {
-                        FullName = "Peter John",
+                        FullName = "Archibald Hoekstra",
                         StreetAddress = "56 New Road",
                         City = "London",
                         PostalCode = "En53ER",
-                        Gender = "F",
+                        Gender = "M",
                     },
                     new Models.Customer
                     {
-                        FullName = "Peter John",
+                        FullName = "Vasant Haynes",
                         StreetAddress = "56 New Road",
                         City = "London",
                         PostalCode = "En53ER",
-                        Gender = "F",
+                        Gender = "M",
                     },
                     new Models.Customer
                     {
-                        FullName = "Peter John",
+                        FullName = "Homer John",
                         StreetAddress = "56 New Road",
                         City = "London",
                         PostalCode = "En53ER",
-                        Gender = "F",
+                        Gender = "M",
                     }
                     );
 

@@ -13,7 +13,7 @@ using Project.Models;
 namespace Project.Pages.Products
 {
 
-   
+    [Authorize(Roles = "Staff")]
     public class IndexModel : PageModel
     {
         private readonly Project.Data.ProjectContext _context;
